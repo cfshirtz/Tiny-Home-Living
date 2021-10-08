@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* Cruz Shirtz
+Fall 2020 */
+
+html {
+    width: 100%;
+}
+/* Embed Youtube videos on the page. Centered, surrounded by space on both sides. CS */
+iframe {
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    border:solid;
+    box-shadow:1px 1px 1px 1px black;
+    border-radius: 15px;
+
+}
+
+/* The meat of the image sections of the "example" and "what about" pages. Contains images and figurecaptions within. CS */
+figure {
+    position: relative;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 450;
+    line-height: 20px;
+    text-emphasis: bold;
+    border-radius: 15px;
+    background-attachment:scroll;
+    cursor: pointer;
+    display: block;
+    border-style: hidden;
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+/* Allows for placing figcaption over images slightly from the bottom of the image. Stays put when image is expanded. CS.*/
+
+.floatImage {
+    box-shadow: 0 0 20px 0 rgba(0.4);
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+figcaption {
+  font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 450;
+  line-height: 20px;
+    /*border: 0.5px 1px 1px 1px solid;
+    border-width: 100%;*/
+    width: 45%;
+    height: auto;
+    float:inherit;
+    display: block;
+    border-style: hidden;
+    box-shadow:1px 2px 2px 2px;
+    background-color: beige;
+    color: black;
+    opacity: 100%;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    /*margin: 10px 45px 10px 10px;*/
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 15px;
+}
+
+
+/* Img properties that allow the image to expand and zoom within the display block when the user hover over with a mouse pointer. Stacking indicates that the images are placed behind figcaption element (z-index). CS */
+img {
+    width: 25%;
+    margin: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -80px;
+    border:solid;
+    border-style:solid;
+    border-color: black;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    z-index: 1;
+
+}
+
+/*img:hover  {
+    width: 60%;
+    margin: 20px 20px 10px 10px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -80px;
+    border:solid;
+    border-style:solid;
+    border-radius: 20px;
+    filter: saturate(3);
+    filter: drop-shadow(10px 10px 20px) grayscale(0);
+    transition: 1.2s;
+    position: relative;
+    z-index:1;
+}*/
+
+/* Media style rules for mobile and tablet compatibility. CS */
+
+@media (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}

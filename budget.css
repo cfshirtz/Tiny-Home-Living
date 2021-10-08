@@ -1,0 +1,479 @@
+@charset "utf-8";
+
+html {
+   width: 100%;
+   position:relative;
+   justify-content: center;
+}
+
+div #hoverChange2 {
+
+margin-left: auto;
+margin-right: auto;
+}
+
+#hoverChange2 {
+
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#hoverChange2 img.top {
+border:black solid 0px;
+  position:relative;
+  opacity: 90;
+  transition: opacity 1s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hoverChange2 img.top {
+  border:black solid 0px;
+  position:absolute;
+  opacity: 90;
+  transition: opacity 1s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#hoverChange2 img.top:hover {
+border:black solid 0px;
+  position: absolute;
+opacity:0;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+}
+
+#hoverChange2 div a {
+  color: black;
+}
+
+#priceRange {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 0px 0px;
+    border: solid #D6962A 3px;
+    width: 100%;
+
+}
+
+/* Simple table that collapses borders/ hides borders. Use limited color palette for minimal design. CS */
+
+table {
+    /*display:grid;*/
+    /*display:flex;*/
+    width: 100%;
+    flex-wrap: wrap;
+    flex: center;
+    border-collapse: collapse;
+    border: 5px solid #D6962A;
+    position: relative;
+    font-family: "Futura", sans-serif;
+    /*border-width: 95%;*/
+    box-shadow:0px 0px 0px 0px;
+    border-radius: 15px 0px 0px 0px;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;*/
+    margin-top: -55px;
+    word-spacing: .5px;
+    background-color: black;
+    opacity: 88%;
+
+}
+
+/* This will shows the name of the table, above the table. CS */
+
+caption {
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(51, 51, 51);
+    color: ivory;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    border-radius: 15px 15px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97.9%;
+    /*box-shadow:2px 2px 2px 1px black;*/
+
+}
+
+/* Large boxes along 5 rows (4 columns). Designed to show pricing tiers for different budgets. CS */
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    text-transform: none;
+    border: 0px 3px 3px 3px solid #D6962A;
+    border-radius: 0px 0px 0px 0px;
+    /*padding: 20px 20px 20px 20px;*/
+    padding: 25px 25px 25px 25px;
+    letter-spacing: 2px;
+    color: ivory;
+    display: flex auto;
+    font-family: helvetica;
+    font-weight:600;
+
+}
+
+th {
+    border: 3px solid #D6962A;
+    /*border-style: collapse;*/
+    padding: 20px 20px 20px 20px;
+    font-style: normal;
+    border-radius: 0px 0px 0px 0px;
+    width: 5%;
+    vertical-align:middle;
+    position: relative;
+    font-size: 20px;
+    margin-right:auto;
+    margin-left: auto;
+
+}
+
+/* Title every column according to category. CS */
+
+thead {
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+
+
+}
+
+thead th {
+    text-align: center;
+    color: ivory;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+tbody tr th {
+    font-weight: normal;
+    position: center;
+    text-align: center;
+    vertical-align: middle;
+    color:#D6962A;
+
+
+}
+
+/* Simple header with line over it. CS */
+
+header {
+    margin: 50px 15px 40px 10px;
+    font-family: "Futura PT", sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+    word-spacing: .5px;
+    font-size: 3.5em;
+    opacity: 88%;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+/* Contains most of the content after on the homepage. Keep it simple. CS */
+
+body {
+    width: 100%;
+    background-image: url("tinyhomebackgroundempty copy.png");
+    height: 900px;
+    position: relative;
+    opacity: 95%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* Consistent header style across all webpages. CS */
+
+h1 {
+    font-family: "Futura std", sans-serif;
+    text-decoration: overline;
+    padding: 5px 10px .5px 10px;
+    font-size: 50px;
+}
+
+/* Text needs to change color when hovered over. CS */
+
+a {
+    color: ivory;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #D6962A;
+    text-decoration: none;
+}
+
+b {
+    color: cornflowerblue;
+    opacity: 88%;
+}
+
+
+c {
+    color: indianred;
+    opacity: 88%;
+}
+
+d {
+  color: black;
+  text-decoration: none;
+}
+
+d:hover {
+  color: #D6962A;
+  background-color: black;
+  border-radius: 5px;
+  padding: 6px;
+  opacity: 93%;
+  text-decoration: none;
+}
+
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+    border: 1px solid;
+    border-width: 50%;
+    border-style:hidden;
+    box-shadow:5px 3px 5px 1px black;
+    background-color: black;
+    text-decoration-color: beige;
+    color: beige;
+    opacity: 90%;
+    padding: 15px 20px 15px 20px;
+    text-transform: none;
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    position: relative;
+    /*margin: 35px 150px 25px 150px;*/
+    text-indent: 20px 10px 15px 15px;
+    /*margin: 50px 260px 50px 260px;*/
+}
+
+/* Adds Spotify-like image overlay gradient. CS. */
+
+img {
+  background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+  border-radius: 15px;
+  float: center;
+  box-shadow: 2px 2px 5px 2px;
+
+}
+
+table thead tr th img {
+box-shadow: none;
+
+}
+
+/* Make a list item style front menu. Unordered. CS */
+
+ul li {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border: solid;
+    border-style: ridge;
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;;
+    list-style: none;
+    background-color: black;
+    color: #D6962A;
+    letter-spacing: 2px;
+    font-family: helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    display: block;
+    box-shadow:5px 3px 5px 1px black;
+}
+
+
+.navbar {
+
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 10px 10px 10px;
+    border: solid;
+    border-style: hidden;
+    overflow:hidden;
+    text-align: center;
+    background-color: black;
+    opacity: 90%;
+    font-family: "futura", sans-serif;
+    border-radius: 15px;
+    box-shadow:5px 3px 5px 1px black;
+}
+
+.navbar a {
+    font-size: 19px;
+    text-align: center;
+    position:relative;
+    opacity: 88%;
+    color: white;
+    text-transform: lowercase;
+    text-decoration: none;
+    margin: 10px 15px 10px 15px;
+    box-shadow:5px 3px 5px 1px black;
+
+}
+
+.navbar a:hover {
+    float: center;
+    font-size: 19px;
+    text-align: center;
+    color: #D6962A;
+    opacity: 88%;
+    text-transform: lowercase;
+    padding: 10px auto;
+    text-decoration: none;
+    margin: 10px 15px 10px 15px;
+    box-shadow:5px 3px 5px 1px black;
+
+}
+
+
+nav ul li {
+    margin: 25px 20px 55px 20px;
+    font-family: "Futura std", sans-serif;
+    font-style: normal;
+    font-weight:550;
+    letter-spacing: 1.2px;
+    word-spacing: .5px;
+    font-size: 35px;
+    opacity: 88%;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-align: right;
+    padding-right: 46px;
+    padding-bottom: 10px;
+    list-style-type: none;
+    border-radius: 15px;
+
+}
+
+aside {
+opacity: 96%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+width: 50%;
+
+}
+
+blockquote {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    border: 1px solid;
+    border-style:hidden;
+    color: beige;
+    opacity: 98%;
+    padding: 15px 10px 15px 10px;
+    margin: 2px 2px 2px 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 15px;
+    border-color: beige;
+    position: relative;
+
+
+}
+
+/* Footer gives info about website and author (me). CS */
+
+footer {
+    font-size: 12px;
+    font-family: helvetica;
+    font-style: bold;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    display: block;
+    color: black;
+    position: relative;
+    text-align: center;
+    vertical-align:center;
+    border: solid;
+    border-style:hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Mobile Screens */
+
+@media only screen and (max-width: 640px) {
+
+   body > header {
+      padding-bottom: 0px;
+   }
+
+   img#logo {
+      width: 100%;
+   }
+
+   a#navicon {
+      display: block;
+   }
+
+   body > header nav ul {
+      display: none;
+   }
+
+   body > header nav ul li {
+      font-size: 1em;
+      line-height: 1.3em;
+      height: 1.3em;
+   }
+
+   a#navicon:hover+ul, header nav ul:hover {
+      display: block;
+   }
+}
+
+/* Tablet screens. CS. */
+
+@media only screen and (min-width: 641px) {
+
+
+   body > header nav ul {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+   }
+
+   body > header nav ul li {
+      flex: 0 1 auto;
+   }
+}

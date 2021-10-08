@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+html {
+   width: 100%;
+}
+
+/* Simple table that collapses borders/ hides borders. Use limited color palette for minimal design. CS */
+table {
+    border-collapse: collapse;
+    /*border: 6px solid rgb(51, 51, 51);*/
+    border: 6px #D6962A;
+    position: relative;
+    font-family: 'Futura', sans-serif;
+    font-size: 18px;
+    border-width: 95%;
+    box-shadow:0px 0px 0px 0px;
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+    word-spacing: .5px;
+    background-color: black;
+    color: beige;
+    opacity: 88%;
+    vertical-align: middle;
+
+
+}
+
+/* This will shows the name of the table, above the table. CS */
+caption {
+    margin: 25px 10px 25px 10px;
+    border: 4px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(51, 51, 51);
+    color: ivory;
+    letter-spacing: 0.2em;
+    text-transform: none;
+    font-weight: normal;
+    font-style: normal;
+    border-radius: 15px;
+    box-shadow:3px 3px 3px 1px black;
+
+}
+
+/* Large boxes along 5 rows (4 columns). Designed to show pricing tiers for different budgets. CS */
+td {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    text-transform: none;
+    border: 4px solid #D6962A;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    letter-spacing: 2px;
+    color: beige;
+    display: flex auto;
+    font-family: helvetica;
+    font-weight:600;
+
+}
+
+th {
+   /*border: 4px solid black;*/
+    /*border: 4px solid #D6962A;*/
+    /*border-style:solid;*/
+    /*padding: 10px 10px 10px 10px;*/
+    font-style: normal;
+    border-radius: 15px;
+    width: 5%;
+    text-align: center;
+    vertical-align:middle;
+    position: relative;
+    text-transform: none;
+    font-size: 20px;
+    color: beige;
+    margin-right:auto;
+    margin-left: auto;
+
+
+
+}
+
+/* Title every column according to category. CS */
+
+thead {
+    background-color: rgb(51, 51, 51);
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color: beige;
+    width: 95%;
+}
+
+thead th {
+    text-align: center;
+    padding-right:10px;
+    padding-left:10px;
+    color: ivory;
+    border: 4px solid #D6962A;
+    border-radius:15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    position: center;
+    vertical-align: middle;
+
+}
+tbody tr th {
+    font-weight: normal;
+    position: center;
+    text-align: center;
+    vertical-align: middle;
+    color:#D6962A;
+
+
+}
+
+/* Form Properties to add a color to the field space when it is slected by the user. CS */
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color:lightblue;
+
+}
+
+input[type=text] {
+  width: 100px;
+  transition: width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 250px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+/* Simple contact form that should be centered on the bottom of the page. CS */
+
+form {
+    text-align: center;
+    position: relative;
+    margin-bottom: 65px;
+    margin-top:auto;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: helvetica;
+    line-height: auto;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 500;
+    display: block;
+    border: solid;
+    border-style: hidden;
+}
